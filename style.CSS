@@ -1,0 +1,25 @@
+HTML{background-color:#000000}
+article{
+  background-color:#FFF38C;
+  padding: 10px;
+  }
+body{background-color:#7CBEF2;
+  padding: 10px;}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
