@@ -1,19 +1,88 @@
-HTML{background-color:#000000}
-article{
-  background-color:#FFF38C;
-  padding: 10px;
-  }
-body{background-color:#7CBEF2;
-  padding: 10px;}
-
-* {
-  box-sizing: border-box;
+body {
+  background: url("https://www.hearst.com/documents/33329/106546/181031_OtherAssetsConveyor_Data_2560x1440.png/7a6cf728-633d-9927-e202-5fba682b0d18?t=1541022522082") center center no-repeat;
+    background-position-y: 60px;
+    background-size: cover;
+    background-attachment: fixed;
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  
+}
+div.header{ 
+  margin: 5px;
+  padding: 5px;
+  height: 400px;
+}
+p.2{
+  style="font-size:50px"
+  text-align: center;
+}
+section {
+    background-color: white;
+  opacity: 0.95 !important;
+  margin: 0px;
+  padding: 15px;
 }
 
+.home {
+    background-color: transparent;
+  
+}
+
+#home .top-image img{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.h{
+  color: #dedede;
+}
+p.h{
+  color: #dedede;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  opacity: 0.9 !important;
+  z-index: 500;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0060ba;
+}
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 48%;
+  padding: 10px;
+}
+
+.column2 {
+  text-align: center;
+  width: 98%;
   padding: 10px;
 }
 
